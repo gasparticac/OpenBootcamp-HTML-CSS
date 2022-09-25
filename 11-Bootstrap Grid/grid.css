@@ -1,0 +1,9 @@
+.container-fluid{
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+.column{
+    border: 0.2em solid #00ADB5;
+    background-color: #393E46;
+}
