@@ -119,19 +119,41 @@
 
         <section id="contact">
             <div class="row">
-                <div class="col-6">
+                <div class="col-6 bg-warning">
                     <h3>Gaspar Ticac</h3>
                     <p>Siéntete libre de enviarme un mensaje</p>
-                    <div class="d-flex w-100">
-                        <i class="fa-brands fa-facebook-messenger"></i>
-                        <i class="fa-brands fa-linkedin"></i>
-                        <i class="fa-solid fa-envelope"></i>
-                        <i class="fa-brands fa-twitter"></i>
+                    <div class="col w-100 d-flex justify-content-around p-2 mb-3">
+                        <div class=" fa-brands fa-linkedin "></div>
+                        <div class=" fa-solid fa-envelope "></div>
+                        <div class=" fa-brands fa-facebook-messenger "></div>
+                        <div class=" fa-brands fa-twitter"></div>
+                    </div>
                     <div>
-                    <h4>2022 by Gaspar Ticac</h4>
+                        <h5>2022 by Gaspar Ticac</h5>
+                    </div>
                 </div>
                 <div class="col-6">
-
+                    <form>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group pb-4">
+                                  <label for="nombre">Tu nombre</label>
+                                  <input type="text" class="form-control" id="nombre" >
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group pb-4">
+                                  <label for="mail">Email</label>
+                                  <input type="email" class="form-control" id="mail" aria-describedby="emailHelp" >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="comentario">Tu comentario</label>
+                            <textarea name="comentario" id="comentario" cols="30" rows="1"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
                 </div>
             </div>
 

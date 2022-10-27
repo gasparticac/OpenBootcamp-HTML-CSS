@@ -50,4 +50,14 @@ i {
   width: 10rem;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control {
+  border-color: transparent transparent gray transparent;
+}
+
 /*# sourceMappingURL=styles.css.map */
