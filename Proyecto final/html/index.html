@@ -119,21 +119,28 @@
 
         <section id="contact">
             <div class="row">
-                <div class="col-6 bg-warning">
-                    <h3>Gaspar Ticac</h3>
+                <div class="col-6 d-flex flex-column">
+                    <h3 class="text-center">Gaspar Ticac</h3>
                     <p>Siéntete libre de enviarme un mensaje</p>
-                    <div class="col w-100 d-flex justify-content-around p-2 mb-3">
-                        <div class=" fa-brands fa-linkedin "></div>
-                        <div class=" fa-solid fa-envelope "></div>
-                        <div class=" fa-brands fa-facebook-messenger "></div>
-                        <div class=" fa-brands fa-twitter"></div>
+                    <div class="col d-flex justify-content-between p-2 mb-3">
+                        <a href="http://linkedin.com/in/gaspar-ticac">
+                            <div class="fa-2x fa-brands fa-linkedin "></div>
+                        </a>
+                        <a href="http://">
+                            <div class="fa-2x fa-solid fa-envelope "></div>
+                        </a>
+                        <a href="http://facebook.com">
+                            <div class="fa-2x fa-brands fa-facebook-messenger "></div>
+                        </a>
+                        <a href="http://twitter.com">
+                            <div class="fa-2x fa-brands fa-twitter"></div>
+                        </a>
                     </div>
-                    <div>
-                        <h5>2022 by Gaspar Ticac</h5>
-                    </div>
+                    <h5 class="align-self-center">2022 by Gaspar Ticac</h5>
                 </div>
                 <div class="col-6">
                     <form>
+                        <h2>Contáctame</h2>
                         <div class="row">
                             <div class="col">
                                 <div class="form-group pb-4">
@@ -150,9 +157,11 @@
                         </div>
                         <div class="form-group">
                             <label for="comentario">Tu comentario</label>
-                            <textarea name="comentario" id="comentario" cols="30" rows="1"></textarea>
+                            <textarea name="comentario" class="form-control" id="comentario" cols="30" rows="1"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <div class="d-flex justify-content-end pe-2">
+                            <button type="submit" class="d-flex justify-content-end btn btn-custom mt-3">Submit</button>
+                        </div>
                       </form>
                 </div>
             </div>
