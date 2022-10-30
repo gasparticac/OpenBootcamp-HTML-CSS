@@ -59,6 +59,10 @@ i {
 .form-control {
   border-color: transparent transparent gray transparent;
 }
+.form-control:focus {
+  border-color: transparent transparent #150050 transparent;
+  box-shadow: none;
+}
 
 .btn-custom {
   background-color: #150050;
