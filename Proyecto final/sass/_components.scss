@@ -6,6 +6,7 @@ $mainColor: #150050;
     font-family: 'Montserrat', sans-serif;
 }
 
+
 h1{
     color: $mainColor;
     font-weight: 700;
@@ -72,6 +73,9 @@ i{
 .btn-custom{
     background-color:$mainColor;
     color: white;
+    &:hover{
+        border-color: $mainColor;
+    }
 }
 
 a{
